@@ -118,18 +118,19 @@ const run = async () => {
 
 	/* Adding a book and a Magazine */
 	const newBook = {
-		title: 'The history of raftlabs',
-		isbn: '1554-4209-1512',
-		authors: [ 'null-ravi@onecode.com' ],
-		description: 'All about raftlabs!'
+		title: 'The Immortals of Meluha',
+		isbn: '9485-0345-3712',
+		authors: [ 'amish_trivedi@gmail.com' ],
+		description: 'All about Shiva Triology'
 	};
 
 	const newMag = {
-		title: 'Best of raftlabs',
-		isbn: '5454-9340-3210',
-		authors: [ 'null-ravi@onecode.com' ],
-		publishedAt: '21.05.2021'
+		title: 'India Today Magazine',
+		isbn: '2832-2832-4854',
+		authors: [ 'pranil@gmail.com' ],
+		publishedAt: '12.02.4567'
 	};
+
 
 	booksList.push(newBook);
 	books[newBook.isbn] = newBook;
@@ -167,5 +168,4 @@ const run = async () => {
 
 
 };
-
 run();

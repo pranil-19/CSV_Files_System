@@ -12,7 +12,8 @@
   "version": "1.0.0",
   "main": "raftalbs.test.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "node raftlabs.js"
   },
   "author": "",
   "license": "ISC",
